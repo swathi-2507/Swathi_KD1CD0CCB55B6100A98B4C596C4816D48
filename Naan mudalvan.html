@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(black,rgb(224,155,224));
+}
+header{
+    background-color: rgba(238, 221, 172, 0.925);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+.my-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    /*top: 55px; */
+    left: 85px;
+}
+nav{
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: aliceblue;
+
+}
+.section{
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px silver;
+}
+    </style>
+    <link rel="stylesheet" href="portfolia.css">
+</head>
+<body>
+    <header>
+    <div class="headercontent"> 
+        <img src="Riswana Begam.jpg" alt="your Profile pic" class="my-pic">
+        <h1>Riswana Begam K</h1>
+        <h4>III Year B.Sc.,CS Student</h4>
+    </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#proskill">Professional skills</a></li>
+            <li><a href="#perskill">Personal skills</a></li>
+        </ul>
+    </nav>
+    <section id="About">
+        <div class="section">
+            <h3>About Myself</h3>
+            <p>Riswana Begam K. I am final year Computer Science student.
+                 I Am seeking for a job</p>
+        </div>
+    </section>
+    <section id="edu">
+        <div class="section">
+            <h3>B.Sc.,Computer Science</h3>
+            <p>Bharathiyar University</p>
+        </div>
+    </section>
+    <section id="proskill">
+        <div class="section">
+            <h3>Professional skills</h3>
+            <ul type="square">
+                <li>Python Numpy,Pandas</li>
+                <li>DataAnalytics</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div> 
+    </section>
+    <section id="perskill">
+        <div class="section">
+            <h2>Personal skills</h2>
+            <ul type="square">
+                <li>Communication skills</li>
+                <li>Leadership</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <center>
+            <p>&copy;Riswana Begam <s>Tm</s></p>
+        </center>
+    </footer>
+</body>
+</html>
